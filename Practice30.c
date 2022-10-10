@@ -5,15 +5,15 @@
 
 int main()
 {
-    float a, b, c;
+    float a, b, d;
     float root1, root2, imaginary;
     float discriminant;
 
-    printf("Enter values of a, b, c of quadratic equation (aX^2 + bX + c): ");
-    scanf("%f%f%f", &a, &b, &c);
+    printf("Enter values of a, b, d of quadratic equation (aX^2 + bX + d): ");
+    scanf("%f%f%f", &a, &b, &d);
 
     /* Calculate discriminant */
-    discriminant = (b * b) - (4 * a * c);
+    discriminant = (b * b) - (4 * a * d);
 
     /* Compute roots of quadratic equation based on the nature of discriminant */
     switch (discriminant > 0)
