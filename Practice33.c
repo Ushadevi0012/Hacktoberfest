@@ -3,16 +3,18 @@
 
 int main()
 {
-    int n;
+    int a;
 
-    printf("Enter value of n: ");
-    scanf("%d", &n);
+    printf("Enter value of a: ");
+    scanf("%d", &a);
 
-    while (n >= 1)
+    while (a >= 1)
     {
-        printf("%d\n", n);
-        n--;
+        printf("%d\n", a);
+        a--;
     }
 
     return 0;
 }
+
+// This is a edited code
