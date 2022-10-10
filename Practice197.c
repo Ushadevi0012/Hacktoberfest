@@ -2,17 +2,17 @@
 #include <stdio.h>
 typedef struct date
 {
-    int date;
+    int date1;
     int month;
     int year;
 }date;
 
-void display(date d)
+void display(date1 d)
 {
-    printf("The date is : %d/%d/%d\n", d.date, d.month, d.year);
+    printf("The date is : %d/%d/%d\n", d.date1, d.month, d.year);
 }
 
-int dateCmp(date d1, date d2)
+int dateCmp(date1 d1, date1 d2)
 {
     //Make desigion on the basics of Year comparision
     if (d1.year>d2.year)
@@ -41,7 +41,7 @@ int dateCmp(date d1, date d2)
     {
         return 1;
     }
-    if (d1.date<d2.date)
+    if (d1.date1<d2.date1)
     {
         return -1;
     }
@@ -50,8 +50,8 @@ int dateCmp(date d1, date d2)
 }
 int main()
 {
-    date d1 ={ 2, 11, 26 };
-    date d2 ={ 2, 10, 28 };
+    date1 d1 ={ 2, 11, 26 };
+    date1 d2 ={ 2, 10, 28 };
 
     display(d1);
     display(d2);
