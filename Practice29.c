@@ -2,25 +2,25 @@
 #include <stdio.h>
 int main()
 {
-    int num;
+    int num1;
     printf("Enter a number to check it is Positive, Negative or Zero\n");
-    scanf("%d", &num);
+    scanf("%d", &num1);
 
-    switch (num > 0)
+    switch (num1 > 0)
     {
     case 1:
-        printf("%d is Positive", num);
+        printf("%d is Positive", num1);
         break;
 
     case 0:
-        switch (num < 0)
+        switch (num1 < 0)
         {
         case 1:
-            printf("%d is Negative", num);
+            printf("%d is Negative", num1);
             break;
 
         case 0:
-            printf("%d is Zero", num);
+            printf("%d is Zero", num1);
             break;
         }
         break;
