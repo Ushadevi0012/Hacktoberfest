@@ -8,7 +8,7 @@ int main()
     FILE *fptr;
     char e1n, e2n;
     int  e1s, e2s;
-    fptr = fopen("Sample12.txt", "w");
+    fptr = fopen("Sample11.txt", "w");
     printf("Enter the name of employee 1 :- \n");
     scanf("%c", &e1n);
     printf("Enter the salary of employee 1 :-\n ");
@@ -18,8 +18,8 @@ int main()
     printf("Enter the salary of employee 2 :- ");
     scanf("%f", &e2s);
 
-    fprintf(fptr, "The Name and salary of Employee 1 is %d %d\n", e1s);
-    fprintf(fptr, "The Name and salary of Employee 2 is %d %d\n", e2s);
+    fprintf(fptr, "The Name and salary of Employee 1 is %d %d\n", e2s);
+    fprintf(fptr, "The Name and salary of Employee 2 is %d %d\n", e1s);
     fclose(fptr);
     return 0;
 }
