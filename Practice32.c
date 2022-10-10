@@ -2,15 +2,15 @@
 #include <stdio.h>
 int main()
 {
-    int i, end;
+    int a, end;
     printf("Print all natural numbers 1 to : ");
     scanf("%d", &end);
 
-    i = 1;
-    while (i <= end)
+    a = 1;
+    while (a <= end)
     {
-        printf("%d\n", i);
-        i++;
+        printf("%d\n", a);
+        a++;
     }
 
     return 0;
